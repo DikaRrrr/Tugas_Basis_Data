@@ -1,7 +1,7 @@
 create database latihan_basisdata;
 
 create table matpel(
-    kode_matpel char(5),
+    kode_matpel char(5) PRIMARY KEY NOT NULL,
     nama_matpel varchar(30),
     nip int(10)
 );
